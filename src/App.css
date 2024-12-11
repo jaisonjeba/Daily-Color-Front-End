@@ -1,0 +1,494 @@
+
+body{
+    margin: 0px;
+    background-color:#F9F9F9 ;
+}
+/* Set the style for the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+/* Set the style for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color:rgba(142, 20, 142, 0.333);
+  border-radius: 10px;
+}
+
+/* Set the style for the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background-color: #e032cf;
+}
+
+/* Set the style for the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* login css */
+#login-container{
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  text-align: center;
+  transition: all 0.8s;
+  background-color: rgba(255, 255, 255, 0.3)
+}
+#login-container:hover{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#login-container h4{
+  font-family: 'Allura', cursive;
+  font-size: 20px;
+  margin: 5px auto;
+}
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .signin{
+    margin: 0px;
+  }
+  .signin:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .showpassword{
+    display: flex;
+    margin-right: 0px auto;
+    align-items: center;
+  }
+
+  .main-container{
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .animation-words {
+    margin-left: 100px;
+    font-size: 40px;
+    color:#03001C;
+    font-family: 'Graduate', cursive;
+  }
+  
+  .animation-words h1 {
+    opacity: 0;
+    animation: fade-in 3s ease-out forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* /////////// */
+
+  .daily-color-main-div{
+    background-image: url("https://www.itl.cat/pngfile/big/193-1931048_fashion-wear-background-fashion-powerpoint-backgrounds.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .login-page-main-container{
+    background-image: url("https://img.freepik.com/premium-photo/blurred-store-cloth-boutique-shop-blur-background_528008-48.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+#website-name{
+  font-family: 'Mr De Haviland', cursive;
+  font-size:40px;
+  font-weight:bold;
+  
+  }
+  #website-name span{
+    color: orange;
+  }
+  #website-name small{
+    color: yellow;
+  }
+ .login-dashboard-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #03C988;
+ }
+ .login-dashboard-nav-items{
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+ }
+ .login-dashboard-nav-items h3{
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+ }
+ .login-dashboard-nav-items h3:hover{
+   transform: translateY(-3px);
+   color: white;
+ }
+  #login-dashboard-websitename{
+    font-family: 'Mr De Haviland', cursive;
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+
+    padding: 10px 10px 10px 10px;
+  }
+  #login-dashboard-websitename span{
+    color: white
+  }
+  #login-dashboard-websitename small{
+    color: #E11299;
+  }
+  /* #color-card{
+    margin: 0px auto;
+   height: fit-content;
+   width: 210px;
+  } */
+
+  #main-color-palette{
+  transition: all 0.3s;
+  }
+  #main-color-palette:hover{
+    transform: scale(120%);
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+  }
+
+h4{
+  margin: 10px auto;
+  text-align: center;
+}
+.color-div{
+  display: flex;
+  margin: 10px 10px 10px 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+  #radio-btn{
+    margin: 10px auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s;
+  }
+  #radio-btn:hover{
+    transform: translateZ(10px);
+    width: 550px;
+    background-color: rgba(203, 93, 177, 0.434);
+  }
+
+  #radio-group{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-more-colors{
+    margin-right: 20px;
+      cursor: pointer;
+      border-bottom: none;
+  }
+  .nav-more-colors:hover{
+    color: pink;
+    text-decoration: underline;
+  }
+.daily-color{
+  margin: 10px auto;
+  width:200px;
+  height: 200px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.daily-color:hover{
+  transform: scale(200%);
+}
+.daily-color-palette{
+  margin: 10px 10px 10px 10px;
+  width:200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.today-suggestion-heading{
+  text-align: center;
+  font-weight:bold;
+  margin:2px 2px 10px 2px ;
+  font-family: 'Kalam', cursive;
+  color: #27E1C1;
+}
+.color-list{
+  margin: 10px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: center;
+  gap:10px
+}
+.color-title-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile-image{
+  margin: 10px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#uploadfile{
+  display: none;
+}
+.upload-btn{
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(77, 93, 166, 0.416);
+  transition: all 0.3s;
+}
+.upload-btn:hover{
+  transform: scale(103%);
+  background-color: rgba(31, 38, 70, 0.416);
+}
+
+.profile-main-container{
+  background-image: url("https://images3.alphacoders.com/212/thumb-1920-212395.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#profile-page-card{
+  margin: 30px auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C9EEFF;
+}
+#profile-page-card h2{
+ font-family: 'Allura', cursive;
+ font-size:30px;
+ margin-right: 20px;
+}
+
+Button{
+  transition: all 0.5s;
+}
+Button:hover{
+  transform: scale(105%);
+  border-radius: 15px;
+  opacity: 0.8;
+}
+/* ///////////// page not found //////////////// */
+
+.page-not-found{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+}
+.page-not-found img{
+  max-width: 550px;
+  max-height: 550px;
+}
+.page-not-found p{
+  margin: 10px auto;
+  font-size: 40px;
+}
+.page-not-found button{
+  margin: 2px auto;
+}
+
+#fade-button{
+  display: none;
+}
+.nav-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-box-container{
+  display:flex;
+  justify-content:center;
+  background-color: rgba(238, 130, 238, 0.333);
+}
+.input-box{
+  margin: 20px auto;
+  width:350px;
+  height:30px;
+  border:4px solid violet;
+  border-radius:5px;
+  padding-left:20px;
+  transition: all 0.3s;
+}
+.input-box:focus{
+  width:450px
+}
+
+#edit-form-container{
+  margin: 40px auto;
+  padding:16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  height: 200px;
+  gap: 20px;
+}
+#edit-form-container h3{
+  margin: 5px auto;
+    text-align: center;
+}
+.profile-name-container{
+  display: flex;
+}
+.about-gmail{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-linkedin{
+  color: white;
+ 
+}
+
+/* /////////////// media query ///////////// */
+
+  @media screen and (max-width: 768px) {
+    #radio-btn{
+      width: 300px;
+    }
+    #radio-btn:hover{
+      transform: translateZ(10px);
+      width: 325px;
+    }
+    .daily-color{
+      margin: 10px auto;
+      width:150px;
+      height: 150px;
+      border-radius: 5px;
+    }
+    .daily-color-palette{
+      margin: 10px 10px 10px 10px;
+      width:150px;
+      height: 150px;
+      border-radius: 5px;
+    }
+    .color-list{
+      margin: 10px 10px 10px 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      justify-items: center;
+      gap:10px
+    }
+    #color-card{
+      margin: 0px auto;
+     height: fit-content;
+     width: 160px;
+    }
+    .today-suggestion-heading{
+     transform: scale(70%);
+    }
+    .main-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .animation-words {
+      margin: 10px auto;
+      font-size: 20px;
+      color:#03001C;
+      background-image: url("background images/pngegg.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      font-family: 'Graduate', cursive;
+    }
+    #login-container{
+      margin: 10px auto;
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      text-align: center;
+    transform: scale(90%);
+    }
+    .page-not-found{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: white;
+    }
+    .page-not-found img{
+      max-width: 250px;
+      max-height: 250px;
+    }
+    .page-not-found p{
+      margin: 10px auto;
+      font-size: 20px;
+    }
+    .page-not-found button{
+      margin: 2px auto;
+    }
+  
+}
+
+.about-page-container{
+  text-align: center;
+  background-color: #03001C;
+  min-height: 100vh;
+}
+.about-page-container p{
+  margin: 0px;
+  padding-top:20px ;
+  color: #03C988;
+}
+.about-page-container h2{
+  margin: 30px 20px 0px 20px;
+  color: white;
+}
+.about-page-container span{
+  color: yellow;
+}
+
+@media screen and (max-width: 550px) {
+  #fade-button{
+    display: block;
+  }
+      .nav-items{
+        display: none;
+      }
+      .input-box{
+        margin: 20px auto;
+        width:250px;
+        height:30px;
+        border:4px solid violet;
+        border-radius:5px;
+        padding-left:20px;
+        transition: all 0.3s;
+      }
+      .input-box:focus{
+        width:300px
+      }
+}
