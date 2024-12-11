@@ -5,7 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 
 export const About = () => {
   const handleOpenWindow = () => {
-    window.open("https://www.linkedin.com/in/ajithkumar-m-2603b5175");
+    window.open("https://www.linkedin.com/in/jaison-jeba-8328b6195/");
   };
   return (
     <div>
@@ -22,7 +22,7 @@ export const About = () => {
         </h2>
         <p>contact Us</p>
         <h3 className="about-gmail">
-          <EmailIcon /> : <label>ajithmuthu799@gmail.com</label>
+          <EmailIcon /> : <label>jaiprabakar5@gmail.com</label>
         </h3>
         <h3 className="about-linkedin" onClick={handleOpenWindow}>
           <LinkedInIcon />
